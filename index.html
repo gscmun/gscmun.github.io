@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GSC MUN — Model United Nations</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"> <!-- all styling lives in style.css --></head><body>
+<div id="bar"></div><div id="glow"></div><div class="blob b1"></div><div class="blob b2"></div>
+<!-- NAVIGATION -->
+<nav><b>GSC MUN</b><a href="#about">About</a><a href="#committees">Committees</a><a href="#timeline">Timeline</a><a href="#faq">FAQ</a><a class="btn sm" href="#register"><span>Register</span></a></nav>
+
+<!-- HERO -->
+<header class="hero">
+<div><div class="ey">Model United Nations</div>
+<h1><span class="w"><i style="animation-delay:.2s">Diplomacy,</i></span><span class="w"><i style="animation-delay:.4s">in <em>session.</em></i></span></h1>
+<p>GSC MUN convenes students to debate, negotiate and draft resolutions on the issues that shape our world.</p>
+<div class="cta"><a class="btn" href="#register"><span>Register now</span></a><a class="btn o" href="#committees"><span>Explore committees</span></a></div></div>
+<div class="art" id="art"><div class="aur"></div><div class="hl"></div>
+<img id="lg" alt="GSC MUN logo" src="assets/gsc-mun-logo.png">
+</div>
+</header>
+
+<!-- WORD STRIP (words set in script.js) -->
+<div class="mq"><div id="m1"></div></div>
+
+<!-- ABOUT + STATS: change the numbers with data-n="..." (data-s="+" adds a plus sign) -->
+<section id="about"><div class="wrap">
+<div class="ey rev">About</div><br>
+<p class="big" id="big">GSC MUN is a place where young delegates learn the craft of diplomacy: researching, speaking, negotiating and building consensus, with a shared hope for a more peaceful world.</p>
+
+<div class="stats rev" style="margin-top:70px"><div><div class="num" data-n="3">0</div><small>Ways to participate</small></div><div><div class="num" data-n="5" data-s="+">0</div><small>Committees</small></div><div><div class="num" data-n="1500" data-s="+">0</div><small>Delegates welcomed</small></div><div><div class="num" data-n="1">0</div><small>Shared mission</small></div></div>
+</div></section>
+
+<!-- COMMITTEES (panels are generated in script.js) -->
+<section id="committees" class="cm"><div class="stick"><div class="hd"><div class="ey">The debate floors</div><h2 class="rev">Five committees. One conference.</h2></div><div class="pns" id="pns"></div><div class="meter"><span id="ct"></span><div class="pg"><i id="pi"></i></div></div></div></section>
+
+<div class="tp"><div class="tape t1"><div class="cs"></div></div><div class="tape t2"><div class="cs"></div></div></div>
+
+<!-- TIMELINE: edit each step title and text -->
+<section id="timeline"><div class="wrap">
+<div class="ey rev">The journey</div><h2 class="rev">Timeline</h2>
+<div class="tl" id="tl"><span class="fl" id="fl"></span>
+<div class="s rev"><h3>Registrations open</h3><p>Choose your category and sign up below.</p></div>
+<div class="s rev"><h3>Committee allocation</h3><p>Countries and committees are shared with participants.</p></div>
+<div class="s rev"><h3>Research and preparation</h3><p>Background guides and position papers.</p></div>
+<div class="s rev"><h3>Conference days</h3><p>Opening ceremony, committee sessions, closing and awards. Dates to be announced.</p></div></div>
+</div></section>
+
+<!-- REGISTRATION (forms are generated in script.js) -->
+<section id="register"><div class="wrap" style="max-width:900px">
+<div class="ey rev">Join the conference</div><h2 class="rev">Registration portal</h2><p class="lead rev">Select how you would like to take part.</p>
+<div class="types rev" id="types"></div><div class="pan rev" id="pan"><p class="hint">Choose a category above to begin.</p></div>
+</div></section>
+
+<!-- SPONSORS (logos set in script.js) -->
+<section id="partners"><div class="wrap" style="padding-bottom:50px"><div class="ey rev">Partners</div><h2 class="rev">Our sponsors</h2><p class="lead rev">Organisations supporting GSC MUN will appear here.</p></div><div class="sp" id="sp"><div class="st" id="st"></div></div></section>
+
+<!-- FAQ: copy a <details> block to add a question -->
+<section id="faq"><div class="wrap" style="max-width:900px"><div class="ey rev">Good to know</div><h2 class="rev">Questions</h2>
+<div class="rev"><details><summary>What is the difference between the categories?</summary><p>Private delegates register individually, delegations register as a group under one institution, and observers attend without representing a country.</p></details>
+<details><summary>I have never done MUN. Can I join?</summary><p>Yes. First-timers are welcome, and background guides will help you prepare.</p></details>
+<details><summary>When will dates and fees be announced?</summary><p>They will be shared with registered participants and published on this site.</p></details></div></div></section>
+
+<!-- FOOTER -->
+<footer><img alt="" src="assets/gsc-mun-logo.png"><div class="serif">GSC MUN</div><p>Diplomacy · Dialogue · Peace</p></footer>
+
+<script src="script.js"></script></body></html>
